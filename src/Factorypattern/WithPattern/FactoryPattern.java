@@ -43,7 +43,7 @@ class NotificationFactory{
 class NotificationService{
     public static void main(String[] args) {
 
-        String type = "sms";    // May get from the input or config
+        String type = "smasns";    // May get from the input or config
 
         try{
             Notification notification=NotificationFactory.getNotification(type);
